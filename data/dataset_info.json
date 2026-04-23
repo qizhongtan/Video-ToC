@@ -1,0 +1,10 @@
+{
+    "sft": {
+        "file_name": "sft.json",
+        "formatting": "sharegpt",
+        "columns": {
+            "messages": "conversations",
+            "videos": "videos"
+        }
+    }
+}  

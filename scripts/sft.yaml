@@ -1,0 +1,36 @@
+### model
+model_name_or_path: ckpt/Qwen2.5-VL-7B-Instruct
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: zero3.json
+
+### dataset
+dataset: sft
+dataset_dir: data
+template: qwen2_vl
+cutoff_len: 16384
+preprocessing_num_workers: 128
+video_max_pixels: 100352
+video_maxlen: 16
+
+### output
+output_dir: output/Qwen2.5-VL-7B-Instruct-sft
+run_name: Qwen2.5-VL-7B-Instruct-sft
+logging_steps: 1
+save_only_model: true
+save_strategy: 'no'
+plot_loss: true
+overwrite_output_dir: true
+report_to: wandb
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 5.0e-7
+num_train_epochs: 1
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
