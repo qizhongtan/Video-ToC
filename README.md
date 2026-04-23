@@ -1,6 +1,19 @@
 # Video-ToC: Video Tree-of-Cue Reasoning
 
-[📖 Paper](https://arxiv.org/abs/2604.20473)
+<p align="center">
+  <a href='https://arxiv.org/abs/2604.20473' style="text-decoration: none;">
+    <img src='https://img.shields.io/badge/Paper-2604.20473-red?style=flat&logo=arXiv&logoColor=red'>
+  </a>
+  <a href='https://huggingface.co/Albertzz888/Video-ToC' style='padding-left: 1rem;text-decoration: none;'>
+    <img src='https://img.shields.io/badge/Model-Video--ToC-yellow?style=flat&logo=huggingface&logoColor=yellow'>
+  </a>
+  <a href='https://huggingface.co/Albertzz888/Video-ToC-SFT' style='padding-left: 1rem;text-decoration: none;'>
+    <img src='https://img.shields.io/badge/Model-Video--ToC--SFT-yellow?style=flat&logo=huggingface&logoColor=yellow'>
+  </a>
+  <a href='https://huggingface.co/datasets/Albertzz888/Video-ToC' style='padding-left: 1rem;text-decoration: none;'>
+    <img src='https://img.shields.io/badge/Data-Train-blue?style=flat&logo=huggingface&logoColor=yellow'>
+  </a>
+</p>
 
 ![teaser](img/Framework.jpg)
 
